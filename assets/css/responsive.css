@@ -331,3 +331,21 @@
     width: 33%;
   }
 }
+
+@media(min-width:1600px){
+  p{
+    font-size: 18px !important;
+  }
+  .footer_wrapper .menu_link a{
+    font-size: 18px;
+  }
+  .footer_wrapper{
+    padding-top: 50px;
+  }
+  .footer_wrapper .menu_link a{
+    line-height: 36px;
+  }
+  .search-form{
+    width: 50rem;
+  }
+}
