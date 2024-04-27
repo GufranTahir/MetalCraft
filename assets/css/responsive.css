@@ -169,8 +169,9 @@
    .footer_wrapper{
     padding-left: 17px;
    }
+  
 }
-@media (max-width: 551px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 45px;
   }
@@ -303,6 +304,25 @@
   }
   .footer_wrapper .menu_title h6{
     padding-top: 15px;
+  }
+  .floatingcontact_btn{
+    transform: none;
+    right: 0;
+    left: 50%;
+    bottom: -28px;
+    top: inherit !important;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .floatingcontact_btn a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: var(--primary-color);
+    color: #fff;
+  }
+  .footer_wrapper{
+    padding-bottom: 40px;
   }
 }
 
