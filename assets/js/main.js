@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ $(document).ready(function() {
   
   $("#search_icon").click(function(event) {
     event.stopPropagation();

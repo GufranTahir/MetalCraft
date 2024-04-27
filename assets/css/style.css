@@ -403,7 +403,7 @@ border-radius: 12px;
   text-decoration: none;
     color: #fff;
     text-transform: capitalize;
-    border: 2.5px solid #FFFFFF;
+    /* border: 2.5px solid #FFFFFF; */
     padding: 8px 18px;
     border-radius: 30px;
     font-family: var(--secondary-font);
@@ -613,6 +613,9 @@ color: #fff;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+.fancybox-active.compensate-for-scrollbar{
+  margin-right: 0 !important;
 }
 
   /* gallery section End*/
@@ -876,6 +879,25 @@ text-align: left;
     right: 0;
     z-index: 100;
 }
+
+/* Top-bar-start */
+
+.top_bar{
+  background: var(--secondary-color);
+  color: var(--primary-color) !important;
+}
+.top_bar .locat{
+  color: var(--primary-color);
+}
+.top_bar .timing{
+
+}
+.top_bar .number{
+ text-decoration: none;
+ color: var(--primary-color);
+}
+
+/* Top-bar-end */
 
 
   
