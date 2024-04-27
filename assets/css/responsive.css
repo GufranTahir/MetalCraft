@@ -218,7 +218,7 @@
     font-size: 12px;
   }
   .work-wrapper .work-content .bottom_btn a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .service-wrapper {
     padding: 40px 0;
@@ -232,7 +232,7 @@
     line-height: 21px;
   }
   .service-wrapper .service-cont .bottom_btn a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .service-wrapper .service-img-bx .overlay_content h6 {
     font-size: 16px;
@@ -253,7 +253,7 @@
     line-height: 51px;
   }
   .expertise-wrapper .expertise-cont p {
-    font-size: 12px;
+    font-size: 14px;
     max-width: 100%;
   }
   .expertise-wrapper .expertise-icon:nth-child(1) {
@@ -269,7 +269,7 @@
     font-size: 35px;
   }
   .Gallery-main .title .more-btn a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .Gallery-main {
     padding: 40px 0;
