@@ -476,7 +476,7 @@ color: #fff;
     -ms-transform: rotate(-91deg);
     transform: rotate(-91deg);
     position: fixed;
-    right: -57px;
+    right: -60px;
     top: 50%;
     z-index: 999;
 }
@@ -906,6 +906,209 @@ display: inline-block;
 }
 
 /* Top-bar-end */
+
+/* About-page-start */
+
+.about-banner .about-img img{
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.about-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  pointer-events: none; 
+  background: rgba(0, 0, 0, 0.43);
+
+}
+.about_content_wrapper{
+  padding: 80px 0;
+}
+
+.about_content_wrapper .right-content .about_img img{
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 16px;
+}
+.about_content_wrapper .right-content .about_img{
+  position: relative;
+}
+.about_content_wrapper .left-cont h3{
+  padding-bottom: 20px;
+}
+.about_content_wrapper .right-content .about_img::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  pointer-events: none; 
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 59.68%, #000000 100%);
+  border-radius: 16px;
+}
+
+
+/* Vedio-bx-start */
+
+.vedio_wrapper .vedio_bx a img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.vedio_wrapper .vedio_bx .shadow-sec::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  pointer-events: none; 
+  background: radial-gradient(25.62% 50% at 48.62% 50%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 16px;
+}
+.vedio_wrapper .vedio_bx .play-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vedio_wrapper .vedio_bx .play-btn i{
+  font-size: 25px;
+  color: var(--primary-color);
+}
+.vedio_wrapper{
+  padding-bottom: 80px;
+}
+
+/* Vedio-bx-end */
+
+
+/* Our-team-sec-start */
+
+.our_team_wrapper{
+  background: var(--primary-color);
+  padding: 80px 0;
+}
+.our_team_wrapper h3{
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.our_team_wrapper p{
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+}
+.our_team_wrapper .team-img img{
+  width: 100%;
+  border-radius: 16px;
+  height: 280px;
+  object-fit: cover;
+}
+.our_team_wrapper .team-img::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  pointer-events: none; 
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 59.68%, #000000 100%);
+  border-radius: 16px;
+}
+.our_team_wrapper .team_info{
+  position: absolute;
+  bottom: 11px;
+  left: 20px;
+}
+.our_team_wrapper .team_info h6{
+  color: #fff;
+}
+
+.our_team_wrapper .team_info span{
+  color: rgba(204, 204, 204, 1);
+  font-family: var(--secondary-font);
+}
+
+/* our-team-sec-end */
+
+/* About-page-end */
+
+
+/* Service-page-start */
+.service-wrapper .service-img-bx img.service-in{
+  height: 420px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Service-page-end */
+
+
+/* Project-section-start */
+
+.project_wrapper{
+  padding: 80px 0;
+}
+.project_wrapper .project-bx{
+  background: var(--primary-color);
+  padding: 20px;
+  border-radius: 20px;
+}
+.project_wrapper .project-bx .project-content-bx{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.project_wrapper .project-img-bx img{
+  width: 100%;
+  border-radius: 20px;
+}
+.project_wrapper .project-content-bx{
+  padding-top: 15px;
+}
+.project_wrapper .project-content-bx h5{
+  color: #fff;
+}
+.project_wrapper .project-content-bx p{
+  color: #fff;
+}
+.project_wrapper .project-content-bx .project-link a{
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+
+.project_wrapper .project-content-bx .project-link a i{
+  transform: rotate(35deg);
+  color: #fff;
+  font-size: 20px;
+}
+
+/* project-section-end */
 
 
   

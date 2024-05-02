@@ -169,6 +169,12 @@
    .footer_wrapper{
     padding-left: 17px;
    }
+   .about_content_wrapper{
+    padding: 60px 0;
+   }
+   .our_team_wrapper{
+    padding: 60px 0;
+   }
   
 }
 @media (max-width: 576px) {
@@ -324,6 +330,15 @@
   .footer_wrapper{
     padding-bottom: 40px;
   }
+  .about_content_wrapper{
+    padding: 40px 0;
+   }
+   .our_team_wrapper{
+    padding: 40px 0;
+   }
+   .about-banner .banner_contents .bottom_btn a{
+    padding: 5px 13px;
+   }
 }
 
 @media (min-width: 991px) {
