@@ -175,6 +175,9 @@
    .our_team_wrapper{
     padding: 60px 0;
    }
+   .contact-wrapper .overlay-content h3{
+    max-width: 658px;
+   }
   
 }
 @media (max-width: 576px) {
