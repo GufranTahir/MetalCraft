@@ -50,6 +50,12 @@ p{
 body.modal-open{
   padding-right: 0 !important;
 }
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:focus{
+  border: none !important;
+}
 
  .navbar-toggler-icon{
   color: var(--secondary-color);
@@ -717,6 +723,7 @@ color: #fff;
   }
   .contact-wrapper .image-container img{
     border-radius: 16px;
+    width: 100%;
   }
   .contact-wrapper .overlay-content h3{
     max-width: 701px;
@@ -1110,7 +1117,6 @@ display: inline-block;
 
 /* project-section-end */
 
-
 /* contact-us-page start */
 .contact-wrappers{
   padding: 80px 0px;
@@ -1168,5 +1174,196 @@ text-transform: capitalize;
 }
 
 /* contact-us-page end */
+
+/* service-details-page-start */
+
+.service_details_wrapper{
+  padding: 80px 0;
+}
+
+.service_details_wrapper .details-cont h4{
+  text-transform: capitalize;
+
+}
+
+.service_details_wrapper .details-cont .achor-link a{
+  background-color: #efddef;
+  color:rgba(192, 122, 192, 1);
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-decoration: none;
+  gap: 20px;
+}
+.service_details_wrapper .details-cont .achor-link{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.service_details_wrapper .serdetail_img img{
+width: 100%;
+object-fit: cover;
+border-radius: 16px;
+}
+
+.service_details_wrapper .dt-button{
+  padding-top: 30px;
+}
+
+.service_details_wrapper .dt-button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 100px;
+  background: var(--primary-color);
+}
+
+/* partner-section-start */
+.partner-wrapper{
+  background: var(--primary-color);
+  padding:80px 0;
+}
+.partner-wrapper .partner-cont{
+  padding-bottom: 60px;
+}
+.partner-wrapper .partner-cont h4{
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+.partner-wrapper .partner-cont p{
+color: #fff;
+text-align: center;
+max-width: 500px;
+margin: 0px auto;
+}
+.partner-wrapper .partner-icon{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  
+}
+.partner-wrapper .part-cont h6{
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+  text-transform: capitalize;
+}
+.partner-wrapper .part-cont p{
+  font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #fff;
+}
+.partner-wrapper .part-icon span{
+  width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+/* partner-section-end */
+
+/* details-video-sec-star */
+.vedio_wrapper.details-vid{
+  padding: 80px 0px;
+  padding-bottom: 0px;
+}
+
+.vedio_wrapper.details-vid .partner-cont h4{
+text-transform: capitalize;
+font-size: 50px;
+}
+
+.vedio_wrapper.details-vid .partner-cont p{
+  margin: 0px 124px;
+  
+}
+.vedio_wrapper.details-vid .row p{
+  line-height: 28px;
+}
+/* .vedio_wrapper.details-vid .details-content{
+  padding: 40px 0px;
+} */
+.vedio_wrapper.details-vid .details-content h4{
+  text-transform: capitalize;
+}
+.vedio_wrapper.details-vid .details-img img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  height: 280px;
+}
+/* .vedio_wrapper.details-vid .details-leftcont p{
+  max-width: 500px;
+} */
+
+/* details-video-sec-end */
+
+/* service-details-page-end */
+
+
+/* Project-details-strat */
+
+.vedio_wrapper.details-vid .control_bx{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.vedio_wrapper.details-vid .control_bx .icon_bx{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.vedio_wrapper.details-vid .feature-bx{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 40px;
+}
+.project_wrapper.details_page{
+  background: var(--primary-color);
+}
+.vedio_wrapper.details-vid.project_details{
+  padding-bottom: 70px;
+}
+.vedio_wrapper.details-vid.project_details .details-title h4{
+  text-transform: capitalize;
+}
+.vedio_wrapper.details-vid.project_details .para_details{
+  line-height: 30px;
+}
+.project_wrapper.details_page .partner-cont h4{
+  color: #fff;
+}
+.project_wrapper.details_page .partner-cont p{
+  color: #fff;
+  margin: 0 100px;
+  margin-bottom: 20px;
+}
+.project_wrapper.details_page{
+  margin-bottom: 80px;
+}
+.project_wrapper.details_page .project-bx{
+  background: rgba(31, 8, 45, 1);
+}
+.project_wrapper.details_page .partner-cont{
+  margin-bottom: 20px;
+}
+
+/* Project-details-end */
+
+
 
   
